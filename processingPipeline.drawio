@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zj0fFl8EOxYbujoj9vtz-1" value="Convert Upwelling Radiance to Reflectance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=32;" parent="1" vertex="1">
+        <mxCell id="zj0fFl8EOxYbujoj9vtz-1" value="&lt;div&gt;Apply Gain and Offset Values&lt;/div&gt;&lt;div&gt;(Calibration)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=32;" parent="1" vertex="1">
           <mxGeometry x="160" y="-40" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="zj0fFl8EOxYbujoj9vtz-21" edge="1" source="zj0fFl8EOxYbujoj9vtz-1">
@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zj0fFl8EOxYbujoj9vtz-21" value="Apply Gain and Offset Values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=32;" parent="1" vertex="1">
+        <mxCell id="zj0fFl8EOxYbujoj9vtz-21" value="Convert Upwelling Radiance to Reflectance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=32;" parent="1" vertex="1">
           <mxGeometry x="440" y="80" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="zj0fFl8EOxYbujoj9vtz-24" edge="1" source="zj0fFl8EOxYbujoj9vtz-21">
@@ -28,7 +28,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zj0fFl8EOxYbujoj9vtz-24" value="Bin K Adjacent Wavelengths" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;" parent="1" vertex="1">
+        <mxCell id="zj0fFl8EOxYbujoj9vtz-24" value="Bin Adjacent Pixels (Colors)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;" parent="1" vertex="1">
           <mxGeometry x="720" y="200" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="zj0fFl8EOxYbujoj9vtz-27" edge="1" source="zj0fFl8EOxYbujoj9vtz-24">
