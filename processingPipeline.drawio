@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0">
   <diagram name="Page-1" id="-AFErXNe9J7OdYunWK4x">
-    <mxGraphModel dx="2176" dy="6616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2330" dy="5697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,28 +8,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=64;" value="&lt;div&gt;Apply Flatfield Correction&lt;/div&gt;" vertex="1">
-          <mxGeometry height="400" width="1200" x="80" y="-480" as="geometry" />
+          <mxGeometry height="320" width="1200" x="80" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="29C8zBz_ybe1H8zBs-sb-3" edge="1" parent="1" source="zj0fFl8EOxYbujoj9vtz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=32;endArrow=block;endFill=1;" target="zj0fFl8EOxYbujoj9vtz-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=64;" value="Convert Radiance to Reflectance" vertex="1">
-          <mxGeometry height="400" width="1200" x="80" y="80" as="geometry" />
+          <mxGeometry height="320" width="1200" x="80" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="29C8zBz_ybe1H8zBs-sb-4" edge="1" parent="1" source="zj0fFl8EOxYbujoj9vtz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=32;endArrow=block;endFill=1;" target="zj0fFl8EOxYbujoj9vtz-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=64;" value="Non-Uniform Binning of Wavelengths" vertex="1">
-          <mxGeometry height="400" width="1200" x="80" y="640" as="geometry" />
+          <mxGeometry height="320" width="1200" x="80" y="400" as="geometry" />
         </mxCell>
         <mxCell id="zj0fFl8EOxYbujoj9vtz-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=64;" value="Pixel Classification" vertex="1">
-          <mxGeometry height="400" width="1200" x="80" y="1200" as="geometry" />
+          <mxGeometry height="320" width="1200" x="80" y="880" as="geometry" />
         </mxCell>
         <mxCell id="29C8zBz_ybe1H8zBs-sb-1" edge="1" parent="1" source="zj0fFl8EOxYbujoj9vtz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=32;endArrow=block;endFill=1;" target="zj0fFl8EOxYbujoj9vtz-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zj0fFl8EOxYbujoj9vtz-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=64;" value="&lt;div&gt;Receive Binary Values From Sensor&lt;/div&gt;" vertex="1">
-          <mxGeometry height="400" width="1200" x="80" y="-1040" as="geometry" />
+        <mxCell id="zj0fFl8EOxYbujoj9vtz-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=64;" value="Receive Binary Values From Sensor" vertex="1">
+          <mxGeometry height="320" width="1200" x="80" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="29C8zBz_ybe1H8zBs-sb-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;align=left;" value="&lt;ul&gt;&lt;li&gt;Read in Low-Voltage Differential Signalling and convert into bits.&lt;/li&gt;&lt;li&gt;Convert bits into N-bit pixel values in frame buffer for sensor.&lt;/li&gt;&lt;li&gt;Output pixel data, pixel number, and line number.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="240" width="960" x="1360" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="29C8zBz_ybe1H8zBs-sb-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;align=left;" value="&lt;ul&gt;&lt;li&gt;Take incoming pixels and apply pre-determined calibration values (gain and offset) to adjust for manufacturing defects.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="240" width="960" x="1360" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="29C8zBz_ybe1H8zBs-sb-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;align=left;" value="&lt;ul&gt;&lt;li&gt;Read in corrected radiance values from sensor and irradiance values from downwelling irradiance sensor to get reflectance.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="240" width="960" x="1360" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="29C8zBz_ybe1H8zBs-sb-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;align=left;" value="&lt;ul&gt;&lt;li&gt;Take reflectance curve and bin adjacent wavelengths based on binning instructions given to processor.&lt;/li&gt;&lt;li&gt;Custom binning adder tree for arbitrary binning instructions.&lt;/li&gt;&lt;li&gt;Increases signal-to-noise ratio and decrease dimensions for ML model.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="240" width="960" x="1360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="29C8zBz_ybe1H8zBs-sb-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;align=left;" value="&lt;ul&gt;&lt;li&gt;Take binned spectrum and feed into pre-trained ML model for inferencing of ground fuel.&lt;/li&gt;&lt;li&gt;Generates classification probability for each pixel, giving land managers a real-time fuel map before a prescribed burn.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="240" width="960" x="1360" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
