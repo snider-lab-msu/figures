@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0">
   <diagram name="Page-1" id="-AFErXNe9J7OdYunWK4x">
-    <mxGraphModel dx="2796" dy="6616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="4016" dy="3462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="29C8zBz_ybe1H8zBs-sb-2" edge="1" parent="1" source="zj0fFl8EOxYbujoj9vtz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=32;endArrow=block;endFill=1;" target="zj0fFl8EOxYbujoj9vtz-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zj0fFl8EOxYbujoj9vtz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=90;" value="&lt;div&gt;Apply Flatfield Correction&lt;/div&gt;" vertex="1">
+        <mxCell id="zj0fFl8EOxYbujoj9vtz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=90;" value="&lt;div&gt;Apply Radiometric Calibration&lt;/div&gt;" vertex="1">
           <mxGeometry height="320" width="2000" x="80" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="29C8zBz_ybe1H8zBs-sb-3" edge="1" parent="1" source="zj0fFl8EOxYbujoj9vtz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=32;endArrow=block;endFill=1;" target="zj0fFl8EOxYbujoj9vtz-24">
