@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="751EyoQSRbfDBpxhn_sJ">
-    <mxGraphModel dx="4440" dy="5197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="4988" dy="6236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,6 +104,15 @@
         </mxCell>
         <mxCell id="0_j3VmcbsowdkEX1UzKl-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=92;" value="&lt;div&gt;$$\lambda_N$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="400" width="400" x="-1040" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="0_j3VmcbsowdkEX1UzKl-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=64;fontStyle=0" value="Nonlinear Functions on Edges" vertex="1">
+          <mxGeometry height="80" width="880" x="-480" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="0_j3VmcbsowdkEX1UzKl-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=64;fontStyle=0" value="Sum on Nodes" vertex="1">
+          <mxGeometry height="80" width="560" x="480" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="0_j3VmcbsowdkEX1UzKl-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=64;fontStyle=0" value="Model Inputs (Wavelengths)" vertex="1">
+          <mxGeometry height="80" width="880" x="-1280" y="2560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
