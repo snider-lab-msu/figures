@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_iCuEAZuw6WaBwFSd-ee-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="340" width="1840" x="60" y="260" as="geometry" />
+          <mxGeometry height="240" width="1840" x="60" y="260" as="geometry" />
         </mxCell>
         <mxCell id="_iCuEAZuw6WaBwFSd-ee-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" value="" vertex="1">
           <mxGeometry height="200" width="350" x="1530" y="280" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry height="120" width="280" x="1560" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_iCuEAZuw6WaBwFSd-ee-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;rounded=0;fontSize=42;" value="&lt;div&gt;&lt;font&gt;SUSHI Publication&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="1830" x="70" y="520" as="geometry" />
+          <mxGeometry height="60" width="1825" x="70" y="440" as="geometry" />
         </mxCell>
         <mxCell id="_iCuEAZuw6WaBwFSd-ee-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;" value="Non-Uniform Binning Publication" vertex="1">
           <mxGeometry height="40" width="360" x="1170" y="440" as="geometry" />
