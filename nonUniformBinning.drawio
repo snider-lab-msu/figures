@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="wa98eqznpe2JrHe0o4L8">
-    <mxGraphModel>
+    <mxGraphModel dx="536" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sFSPbolcgR5os_E54FxP-5" edge="1" parent="1" source="sFSPbolcgR5os_E54FxP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=3;" target="sFSPbolcgR5os_E54FxP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" value="Reflectance Conversion" vertex="1">
+          <mxGeometry height="40" width="320" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-6" edge="1" parent="1" source="sFSPbolcgR5os_E54FxP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=3;" target="sFSPbolcgR5os_E54FxP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" value="Non-Uniform Binning" vertex="1">
+          <mxGeometry height="40" width="320" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-7" edge="1" parent="1" source="sFSPbolcgR5os_E54FxP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=3;" target="sFSPbolcgR5os_E54FxP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" value="Uniform Distribution" vertex="1">
+          <mxGeometry height="40" width="320" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" value="Inference Model" vertex="1">
+          <mxGeometry height="40" width="320" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="1xN Reflectance Values" vertex="1">
+          <mxGeometry height="60" width="190" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="1xM Reflectance Values" vertex="1">
+          <mxGeometry height="60" width="190" x="210" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sFSPbolcgR5os_E54FxP-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="1xM Encoded Values" vertex="1">
+          <mxGeometry height="60" width="190" x="210" y="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
