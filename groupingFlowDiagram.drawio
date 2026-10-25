@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2RkmGTQekmt7O1_HUTeA">
+    <mxGraphModel dx="841" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-4" edge="1" parent="1" source="NvuDb9hqxIYQIi_jNpYU-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;strokeWidth=3;" target="NvuDb9hqxIYQIi_jNpYU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-5" edge="1" parent="1" source="NvuDb9hqxIYQIi_jNpYU-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;strokeWidth=3;" target="NvuDb9hqxIYQIi_jNpYU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Non-Linear Functions" vertex="1">
+          <mxGeometry height="40" width="560" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Clustering" vertex="1">
+          <mxGeometry height="40" width="240" x="40" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Family" vertex="1">
+          <mxGeometry height="40" width="240" x="360" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="200" width="240" x="40" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="200" width="240" x="360" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-12" edge="1" parent="1" source="NvuDb9hqxIYQIi_jNpYU-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;strokeWidth=3;" target="NvuDb9hqxIYQIi_jNpYU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;ol&gt;&lt;li&gt;Determine number of centroids&lt;/li&gt;&lt;li&gt;Calculate K-means clustering of non-linear functions&lt;/li&gt;&lt;li&gt;Replace functions with calculated centroids&lt;/li&gt;&lt;li&gt;Save scaling and shifting values&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="200" width="240" x="40" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-13" edge="1" parent="1" source="NvuDb9hqxIYQIi_jNpYU-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;strokeWidth=3;" target="NvuDb9hqxIYQIi_jNpYU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;ol&gt;&lt;li&gt;Create family of functions&lt;/li&gt;&lt;li&gt;Fit each non-linear function to function in family&lt;/li&gt;&lt;li&gt;Replace functions with preset functions&lt;/li&gt;&lt;li&gt;Save scaling and shifting values&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="200" width="240" x="360" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="NvuDb9hqxIYQIi_jNpYU-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Model Re-Training" vertex="1">
+          <mxGeometry height="40" width="560" x="40" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
